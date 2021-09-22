@@ -1,40 +1,42 @@
 {
-  "name": "vue-electron",
-  "version": "0.1.0",
-  "private": true,
-  "scripts": {
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
-    "electron:build": "vue-cli-service electron:build",
-    "electron:serve": "vue-cli-service electron:serve",
-    "postinstall": "electron-builder install-app-deps",
-    "postuninstall": "electron-builder install-app-deps"
-  },
-  "main": "background.js",
-  "dependencies": {
-    "core-js": "^3.6.5",
-    "electron-rebuild": "^3.2.3",
-    "node-gyp": "^8.2.0",
-    "serialport": "^9.2.1",
-    "vue": "^3.0.0",
-    "vue-router": "^4.0.0-0",
-    "vuex": "^4.0.0-0"
-  },
-  "devDependencies": {
-    "@vue/cli-plugin-babel": "~4.5.0",
-    "@vue/cli-plugin-router": "~4.5.0",
-    "@vue/cli-plugin-vuex": "~4.5.0",
-    "@vue/cli-service": "~4.5.0",
-    "@vue/compiler-sfc": "^3.0.0",
-    "electron": "^13.0.0",
-    "electron-devtools-installer": "^3.1.0",
-    "sass": "^1.26.5",
-    "sass-loader": "^8.0.2",
-    "vue-cli-plugin-electron-builder": "~2.1.1"
-  },
-  "browserslist": [
-    "> 1%",
-    "last 2 versions",
-    "not dead"
-  ]
+	"name": "vue-electron",
+	"version": "0.1.0",
+	"private": true,
+	"scripts": {
+		"serve": "vue-cli-service serve",
+		"build": "vue-cli-service build",
+		"start-build": "vue-cli-service electron:build",
+		"start-serve": "vue-cli-service electron:serve",
+		"postinstall": "electron-builder install-app-deps",
+		"postuninstall": "electron-builder install-app-deps",
+		"mac-re": "sudo ./node_modules/.bin/electron-rebuild",
+		"win-re": "./node_modules/.bin/electron-rebuild.cmd"
+	},
+	"main": "background.js",
+	"dependencies": {
+		"core-js": "^3.6.5",
+		"electron-rebuild": "^3.2.3",
+		"node-gyp": "^8.2.0",
+		"serialport": "^9.2.1",
+		"vue": "^3.0.0",
+		"vue-router": "^4.0.0-0",
+		"vuex": "^4.0.0-0"
+	},
+	"devDependencies": {
+		"@vue/cli-plugin-babel": "~4.5.0",
+		"@vue/cli-plugin-router": "~4.5.0",
+		"@vue/cli-plugin-vuex": "~4.5.0",
+		"@vue/cli-service": "~4.5.0",
+		"@vue/compiler-sfc": "^3.0.0",
+		"electron": "^13.0.0",
+		"electron-devtools-installer": "^3.1.0",
+		"sass": "^1.26.5",
+		"sass-loader": "^8.0.2",
+		"vue-cli-plugin-electron-builder": "~2.1.1"
+	},
+	"browserslist": [
+		"> 1%",
+		"last 2 versions",
+		"not dead"
+	]
 }
