@@ -16,6 +16,7 @@ async function createWindow() {
 	const win = new BrowserWindow({
 		width: 800,
 		height: 600,
+		show: false,
 		webPreferences: {
 			// Use pluginOptions.nodeIntegration, leave this alone
 			// See nklayman.github.io/vue-cli-plugin-electron-builder/guide/security.html#node-integration for more info
@@ -65,6 +66,10 @@ app.on('ready', async () => {
 		}
 	}
 	createWindow();
+
+	win.on('ready-to-show', function () {
+		win.show();
+	});
 });
 
 // Exit cleanly on request from parent process in development mode.
