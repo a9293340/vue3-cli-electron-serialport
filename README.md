@@ -1,4 +1,4 @@
-# vue-electron
+# vue-electron-serialport
 
 ## Preliminary work
 
