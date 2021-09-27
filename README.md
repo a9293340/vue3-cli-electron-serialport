@@ -85,6 +85,7 @@ yarn win-re  (for windows)
 yarn mac-re  (for Mac)
 ```
 
-### Customize configuration
+### References
 
-See [Configuration Reference](https://cli.vuejs.org/config/).
+- See [Configuration Reference](https://cli.vuejs.org/config/).
+- See [Electron & Vue](https://ithelp.ithome.com.tw/articles/10254290)
