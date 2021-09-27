@@ -27,7 +27,7 @@ npm install -g node-gyp
 - 確保你安裝了 vscode(ps:其實可以直接跳過 2–4 步，因為你的 python 環境早就安裝好了，重複的步驟安裝程序早就執行完畢了)
 - 在%temp%目錄下創建一個名為 dd*client*.log 的文件
 - 編輯 5 中創建的文件，加入一行 Closing installer. Return code: 3010.然後保存。
-- 重新執行 `npm install -g node-gyp`
+- 重新執行 `npm install -g windows-build-tools` & `npm install -g node-gyp`
 
 #### When have problem `Xcode or CLT Version Deleted` in mac.Please refer to the solution below
 
@@ -37,6 +37,7 @@ npm install -g node-gyp
 #### When you development in Windows7,because nodejs must > 14. So build & install will be no work.Please refer to the solution below
 
 - When must be `Install or Build` . Create and Open VM(Windows8.1 or above) and install/build in this environment. And copy `node-modules` file to target.
+- Beacuse fs.promise is no work on Node.js < 14.
 
 ## Project setup
 
@@ -72,7 +73,7 @@ yarn start-serve
 yarn start-build
 ```
 
-#### Rebuild
+### Rebuild
 
 When to use:
 
