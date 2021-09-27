@@ -12,10 +12,8 @@ module.exports = {
 			nodeIntegration: true,
 			externals: ['serialport'],
 			builderOptions: {
-				asar: true, // 是否使用 asar 壓縮檔案
-				appId: 'your.id', // 認證的 appId
-				productName: 'productName', // 專案名稱
-				artifactName: '${name}.${ext}', // 檔案名稱樣板，有 ESLint 記得關掉
+				asar: true, // 是否使用 asar 壓縮檔案\
+				artifactName: '${name}-v${version}.${ext}', // 檔案名稱樣板
 				copyright: 'Copyright©ares', // 版權
 				// Windows 相關設定
 				win: {
