@@ -1,5 +1,5 @@
 const { IgnorePlugin } = require('webpack');
-
+const webpack = require('webpack');
 module.exports = {
 	pluginOptions: {
 		plugins: [
@@ -14,10 +14,10 @@ module.exports = {
 			builderOptions: {
 				asar: true, // 是否使用 asar 壓縮檔案\
 				artifactName: '${name}-v${version}.${ext}', // 檔案名稱樣板
-				copyright: 'Copyright©ares', // 版權
+				copyright: 'Copyright©cino', // 版權
 				// Windows 相關設定
 				win: {
-					icon: 'public/icon.ico', // 安裝檔圖示
+					icon: 'public/favicon.ico', // 安裝檔圖示
 					target: [
 						{
 							target: 'nsis', // 檔案類型
@@ -39,15 +39,25 @@ module.exports = {
 				},
 				nsis: {
 					oneClick: false, // 是否一鍵安裝
-					perMachine: true, // 是否為每一台機器安裝
-					installerIcon: 'public/icon.ico', // 安裝圖示
-					uninstallerIcon: 'public/icon.ico', // 卸載圖示
-					installerHeaderIcon: 'public/icon.ico', // 安裝頂部圖示
+					// perMachine: true, // 是否為每一台機器安裝
+					installerIcon: 'public/favicon.ico', // 安裝圖示
+					uninstallerIcon: 'public/favicon.ico', // 卸載圖示
+					installerHeaderIcon: 'public/favicon.ico', // 安裝頂部圖示
 					allowToChangeInstallationDirectory: true, // 是否可更改安裝目錄
 					createDesktopShortcut: true, // 是否建立桌面捷徑
 					createStartMenuShortcut: true, // 是否建立開始捷徑
 				},
 			},
 		},
+	},
+	configureWebpack: {
+		plugins: [
+			new webpack.DefinePlugin({
+				'process.env': {
+					PACKAGE_JSON: '"' + require('./package.json').version + '"',
+					COMPANY: '"' + require('./package.json').author + '"',
+				},
+			}),
+		],
 	},
 };

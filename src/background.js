@@ -6,6 +6,8 @@ import installExtension, { VUEJS3_DEVTOOLS } from 'electron-devtools-installer';
 const isDevelopment = process.env.NODE_ENV !== 'production';
 import path from 'path';
 
+let win;
+
 // Scheme must be registered before the app is ready
 protocol.registerSchemesAsPrivileged([
 	{ scheme: 'app', privileges: { secure: true, standard: true } },
@@ -13,13 +15,17 @@ protocol.registerSchemesAsPrivileged([
 
 async function createWindow() {
 	// Create the browser window.
-	const win = new BrowserWindow({
-		width: 800,
-		height: 600,
+	win = new BrowserWindow({
+		width: 940,
+		height: 830,
+		// resizable: false,
 		show: false,
+		autoHideMenuBar: true,
+		icon: path.join(__static, 'ard49-1fc78-001.ico'),
 		webPreferences: {
 			// Use pluginOptions.nodeIntegration, leave this alone
 			// See nklayman.github.io/vue-cli-plugin-electron-builder/guide/security.html#node-integration for more info
+			// devTools: false,
 			enableRemoteModule: true,
 			nodeIntegration: process.env.ELECTRON_NODE_INTEGRATION,
 			contextIsolation: !process.env.ELECTRON_NODE_INTEGRATION,
@@ -67,7 +73,7 @@ app.on('ready', async () => {
 	}
 	createWindow();
 
-	win.on('ready-to-show', function () {
+	win.on('ready-to-show', function() {
 		win.show();
 	});
 });
