@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <g id="Group_3656" data-name="Group 3656" transform="translate(-1209 -5)">
+    <circle id="Ellipse_7" data-name="Ellipse 7" cx="10" cy="10" r="10" transform="translate(1209 5)" fill="none"/>
+    <g id="Group_3654" data-name="Group 3654" transform="translate(-1 0.998)">
+      <g id="Union_10" data-name="Union 10" transform="translate(-777 -12174)" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M1991,12194v-10h2v-2h10v10h-2v2Z" stroke="none"/>
+        <path d="M 1999.999145507813 12193 L 1999.999145507813 12191.9990234375 C 1999.999145507813 12191.4462890625 2000.446899414063 12190.9990234375 2000.999145507813 12190.9990234375 L 2002.00048828125 12190.9990234375 L 2002.00048828125 12183.0009765625 L 1993.99951171875 12183.0009765625 L 1993.99951171875 12183.9990234375 C 1993.99951171875 12184.5517578125 1993.5517578125 12184.9990234375 1992.99951171875 12184.9990234375 L 1992.001098632813 12184.9990234375 L 1992.001098632813 12193 L 1999.999145507813 12193 M 2000.999145507813 12194 L 1991.001098632813 12194 L 1991.001098632813 12183.9990234375 L 1992.99951171875 12183.9990234375 L 1992.99951171875 12182.0009765625 L 2003.00048828125 12182.0009765625 L 2003.00048828125 12191.9990234375 L 2000.999145507813 12191.9990234375 L 2000.999145507813 12194 Z" stroke="none" fill="#4d4d4d"/>
+      </g>
+      <g id="Rectangle_911" data-name="Rectangle 911" transform="translate(1214 10)" fill="none" stroke="#4d4d4d" stroke-linecap="round" stroke-linejoin="round" stroke-width="1">
+        <rect width="10" height="10" stroke="none"/>
+        <rect x="0.5" y="0.5" width="9" height="9" fill="none"/>
+      </g>
+    </g>
+  </g>
+</svg>

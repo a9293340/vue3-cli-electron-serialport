@@ -17,7 +17,7 @@ module.exports = {
 				copyright: 'Copyright©cino', // 版權
 				// Windows 相關設定
 				win: {
-					icon: 'public/favicon.ico', // 安裝檔圖示
+					icon: 'public/ard49-1fc78-001.ico', // 安裝檔圖示
 					target: [
 						{
 							target: 'nsis', // 檔案類型
@@ -27,22 +27,22 @@ module.exports = {
 				},
 				// DMG 相關設定
 				dmg: {
-					icon: 'public/icon.icns', // 安裝檔圖示
+					icon: 'public/ard49-1fc78-001.ico', // 安裝檔圖示
 				},
 				// Linux 相關設定
 				linux: {
-					icon: 'public/icon.png', // 安裝檔圖示
+					icon: 'public/ard49-1fc78-001.ico', // 安裝檔圖示
 				},
 				// macOS 相關設定
 				mac: {
-					icon: 'public/icon.icns', // 安裝檔圖示
+					icon: 'public/ard49-1fc78-001.ico', // 安裝檔圖示
 				},
 				nsis: {
 					oneClick: false, // 是否一鍵安裝
 					// perMachine: true, // 是否為每一台機器安裝
-					installerIcon: 'public/favicon.ico', // 安裝圖示
-					uninstallerIcon: 'public/favicon.ico', // 卸載圖示
-					installerHeaderIcon: 'public/favicon.ico', // 安裝頂部圖示
+					installerIcon: 'public/ard49-1fc78-001.ico', // 安裝圖示
+					uninstallerIcon: 'public/ard49-1fc78-001.ico', // 卸載圖示
+					installerHeaderIcon: 'public/ard49-1fc78-001.ico', // 安裝頂部圖示
 					allowToChangeInstallationDirectory: true, // 是否可更改安裝目錄
 					createDesktopShortcut: true, // 是否建立桌面捷徑
 					createStartMenuShortcut: true, // 是否建立開始捷徑

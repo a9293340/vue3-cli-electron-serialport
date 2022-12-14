@@ -1,0 +1,348 @@
+[
+  {
+    "no": 1,
+    "type": "text",
+    "theme": "history",
+    "title": {
+      "desc": "請問下列哪個台灣大事件,並非發生於公司成立之時間?",
+      "type": "text"
+    },
+    "options": {
+      "desc": {
+        "A": "中華民國報禁正式完全解除",
+        "B": "台灣股市大放異彩，一舉衝破五千點大關",
+        "C": "與巴哈馬建立外交關係",
+        "D": "總統蔣經國逝世，李登輝繼任總統，成為首位台灣人總統"
+      },
+      "type": "text"
+    },
+    "answer": {
+      "desc": "C",
+      "detail": "1月9日——與巴哈馬建立外交關係",
+      "type": "text"
+    }
+  },
+  {
+    "no": 2,
+    "type": "img",
+    "theme": "television",
+    "title": {
+      "desc": "請問下列哪位不是徐錦江",
+      "type": "text"
+    },
+    "options": {
+      "type": "img",
+      "desc": {
+        "A": "/img/2/A.jpg",
+        "B": "/img/2/B.jpg",
+        "C": "/img/2/C.jpg",
+        "D": "/img/2/D.jpg"
+      }
+    },
+    "answer": {
+      "desc": "D",
+      "detail": "/img/2/D.jpg",
+      "type": "img"
+    }
+  },
+  {
+    "no": 3,
+    "type": "video",
+    "theme": "live",
+    "title": {
+      "desc": "請問皮卡丘小提琴家與警察們擊拳結束時，行人時間剩下幾秒",
+      "path": "https://www.youtube.com/embed/EjlG-dMzm3s",
+      "type": "video"
+    },
+    "options": {
+      "desc": {
+        "A": "2sec",
+        "B": "4sec",
+        "C": "1sec",
+        "D": "3sec"
+      },
+      "type": "text"
+    },
+    "answer": {
+      "desc": "D",
+      "detail": "https://www.youtube.com/embed/EjlG-dMzm3s?start=38",
+      "type": "video"
+    }
+  },
+  {
+    "no": 4,
+    "type": "img",
+    "theme": "professional",
+    "title": {
+      "desc": "請問圖片是下列哪種條碼",
+      "path": "/img/4/title.jpg",
+      "type": "img"
+    },
+    "options": {
+      "desc": {
+        "A": "EAN-13",
+        "B": "Plessey",
+        "C": "ITF-14",
+        "D": "Code128"
+      },
+      "type": "text"
+    },
+    "answer": {
+      "desc": "B",
+      "detail": "/img/4/answer.jpg",
+      "type": "img"
+    }
+  },
+  {
+    "no": 5,
+    "type": "text",
+    "theme": "live",
+    "title": {
+      "desc": "請問18樓公司對面的商業中心,總共包含幾間公司?",
+      "type": "text"
+    },
+    "options": {
+      "desc": {
+        "A": "18",
+        "B": "22",
+        "C": "26",
+        "D": "30"
+      },
+      "type": "text"
+    },
+    "answer": {
+      "desc": "C",
+      "detail": "/img/5/answer.jpg",
+      "type": "img"
+    }
+  },
+  {
+    "no": 6,
+    "type": "text",
+    "theme": "professional",
+    "title": {
+      "desc": "請問目前於powertool3.0中,下列並非S680現行的operation mode?",
+      "type": "text"
+    },
+    "options": {
+      "desc": {
+        "A": "Trigger mode",
+        "B": "Force mode",
+        "C": "Presentation mode",
+        "D": "Level mode"
+      },
+      "type": "text"
+    },
+    "answer": {
+      "desc": "D",
+      "detail": "/img/6/answer.jpg",
+      "type": "img"
+    }
+  },
+  {
+    "no": 7,
+    "type": "text",
+    "theme": "live",
+    "title": {
+      "desc": "公司傳真號碼?",
+      "type": "text"
+    },
+    "options": {
+      "desc": {
+        "A": "26962560",
+        "B": "26952659",
+        "C": "27752996",
+        "D": "26962559"
+      },
+      "type": "text"
+    },
+    "answer": {
+      "desc": "A",
+      "detail": "公司電話: 2696-2559 ; 公司傳真: 2696-2560 ; 公司統編: 2775-2996",
+      "type": "text"
+    }
+  },
+  {
+    "no": 8,
+    "type": "img",
+    "theme": "live",
+    "title": {
+      "desc": "面對公司大門,下列哪隻scanner是擺放在左手邊?",
+      "type": "text"
+    },
+    "options": {
+      "type": "img",
+      "desc": {
+        "A": "/img/8/A.jpg",
+        "B": "/img/8/B.jpg",
+        "C": "/img/8/C.jpg",
+        "D": "/img/8/D.jpg"
+      }
+    },
+    "answer": {
+      "desc": "D",
+      "detail": "/img/8/answer.jpg",
+      "type": "img"
+    }
+  },
+  {
+    "no": 9,
+    "type": "img",
+    "theme": "live",
+    "title": {
+      "desc": "下面哪個是公司logo?",
+      "type": "text"
+    },
+    "options": {
+      "type": "img",
+      "desc": {
+        "A": "/img/8/A.jpg",
+        "B": "/img/8/B.jpg",
+        "C": "/img/8/C.jpg",
+        "D": "/img/8/D.jpg"
+      }
+    },
+    "answer": {
+      "desc": "B",
+      "detail": "/img/8/answer.jpg",
+      "type": "img"
+    }
+  },
+  {
+    "no": 10,
+    "type": "text",
+    "theme": "television",
+    "title": {
+      "desc": "請問下列哪首歌不是鄧麗君'原唱'的歌?",
+      "type": "text"
+    },
+    "options": {
+      "desc": {
+        "A": "你在我心中",
+        "B": "何日君再來",
+        "C": "小城故事",
+        "D": "我怎能離開你"
+      },
+      "type": "text"
+    },
+    "answer": {
+      "desc": "B",
+      "detail": "《何日君再來》這首30年代的老歌,自周旋首唱後,許多名歌星都演唱過,鄧麗君於1978年翻唱並灌錄入《一封情書》專輯。",
+      "type": "text"
+    }
+  },
+  {
+    "no": 11,
+    "type": "text",
+    "theme": "game",
+    "title": {
+      "desc": "下列哪個地點並非知名沙盒開放遊戲GTA(俠盜獵車手)系列發生過的地方?",
+      "type": "text"
+    },
+    "options": {
+      "desc": {
+        "A": "紐約",
+        "B": "邁阿密",
+        "C": "洛杉磯",
+        "D": "西雅圖"
+      },
+      "type": "text"
+    },
+    "answer": {
+      "desc": "D",
+      "detail": "GTA1 & GTA4 : 自由城 => 紐約 <br> GTA VC(罪惡城市) : 罪城 => 邁阿密 <br> GTA SA(聖安地列斯) & GTA5: 洛聖都 => 洛杉磯",
+      "type": "text"
+    }
+  },
+  {
+    "no": 12,
+    "type": "img",
+    "theme": "live",
+    "title": {
+      "desc": "顏色?",
+      "path": "/img/12/title.jpg",
+      "type": "img"
+    },
+    "options": {
+      "desc": {
+        "A": "紅",
+        "B": "藍"
+      },
+      "type": "text"
+    },
+    "answer": {
+      "desc": "B",
+      "detail": "答錯太誇張",
+      "type": "text"
+    }
+  },
+  {
+    "no": 13,
+    "type": "img",
+    "theme": "live",
+    "title": {
+      "desc": "字?",
+      "path": "/img/13/title.jpg",
+      "type": "img"
+    },
+    "options": {
+      "desc": {
+        "A": "紅",
+        "B": "藍"
+      },
+      "type": "text"
+    },
+    "answer": {
+      "desc": "B",
+      "detail": "答錯太誇張",
+      "type": "text"
+    }
+  },
+  {
+    "no": 14,
+    "type": "text",
+    "theme": "live",
+    "title": {
+      "desc": "下列哪間咖啡廳位於宏碁大樓內?",
+      "type": "text"
+    },
+    "options": {
+      "desc": {
+        "A": "Yolo's Cafe",
+        "B": "QahWA Cafe",
+        "C": "STARBUCKS",
+        "D": "Redbuff Express"
+      },
+      "type": "text"
+    },
+    "answer": {
+      "desc": "B",
+      "detail": "/img/14/answer.jpg",
+      "type": "img"
+    }
+  },
+  {
+    "no": 15,
+    "type": "img",
+    "theme": "live",
+    "title": {
+      "desc": "下列哪個並未出現圖中?",
+      "path": "/img/15/title.jpg",
+      "type": "img"
+    },
+    "options": {
+      "desc": {
+        "A": "黃色",
+        "B": "藍字",
+        "C": "綠字",
+        "D": "紅色"
+      },
+      "type": "text"
+    },
+    "answer": {
+      "desc": "D",
+      "detail": "答錯太誇張",
+      "type": "text"
+    }
+  }
+]
